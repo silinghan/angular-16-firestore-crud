@@ -25,3 +25,32 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Technology
+Angular 16
+firebase 9
+@angular/fire 7
+rxjs 7
+
+# Setup the Firebase Project
+Please visit following tutorial for setting up project on Firebase
+
+Console:
+[How to Integrate Firebase into Angular 16](https://www.bezkoder.com/integrate-firebase-angular-16/)
+
+# Setup Angular 16 Project
+Let’s open cmd and use Angular CLI to create a new Angular Project as following command:
+
+# ng new angular-16-firestore-crud
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+We also need to generate some Components and a Service:
+
+# ng g s services/tutorial
+
+# ng g c components/add-tutorial
+# ng g c components/tutorial-details
+# ng g c components/tutorials-list
+
+# ng g class models/tutorial --type=model
+Now you can see that our project directory structure looks like this.
