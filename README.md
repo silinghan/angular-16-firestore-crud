@@ -41,16 +41,17 @@ Console:
 # Setup Angular 16 Project
 Let’s open cmd and use Angular CLI to create a new Angular Project as following command:
 
-# ng new angular-16-firestore-crud
+ng new angular-16-firestore-crud
 ? Would you like to add Angular routing? Yes
 ? Which stylesheet format would you like to use? CSS
 We also need to generate some Components and a Service:
 
-# ng g s services/tutorial
+ng g s services/tutorial
 
-# ng g c components/add-tutorial
-# ng g c components/tutorial-details
-# ng g c components/tutorials-list
+ng g c components/add-tutorial
+ng g c components/tutorial-details
+ng g c components/tutorials-list
 
-# ng g class models/tutorial --type=model
+ng g class models/tutorial --type=model
+
 Now you can see that our project directory structure looks like this.
